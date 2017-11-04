@@ -1,0 +1,15 @@
+{
+  "name": "rising-stack",
+  "version": "1.0.0",
+  "description": "tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "new-stack"
+  },
+  "author": "jennifer.lyden",
+  "license": "ISC"
+}
