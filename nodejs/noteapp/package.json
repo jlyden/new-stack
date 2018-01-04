@@ -1,0 +1,27 @@
+{
+  "name": "noteapp",
+  "version": "1.0.0",
+  "description": "sample note-taking app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlyden/new-stack.git"
+  },
+  "keywords": [
+    "https://medium.freecodecamp.org"
+  ],
+  "author": "jlyden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlyden/new-stack/issues"
+  },
+  "homepage": "https://github.com/jlyden/new-stack#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1"
+  }
+}
