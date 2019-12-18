@@ -1,8 +1,21 @@
 <h2>So Many Reindeer</h2>
+
+<div>
+    <label>Reindeer name:
+        <input #heroName />
+    </label>
+    <!-- (click) passes input to add(), then clears input -->
+    <button (click)="add(heroName.value); heroName.value=''">
+        add
+    </button>
+</div>
+
 <ul class="heroes">
     <li *ngFor="let hero of heroes">
         <a routerLink="/detail/{{hero.id}}">
             <span class="badge">{{hero.id}}</span> {{hero.name}}
         </a>
+        <button class="delete" title="delete hero"
+            (click)="delete(hero)">x</button>
     </li>
 </ul>
